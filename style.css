@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #202020;
+    color: #fffefe;
+    padding: 60px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+    background-color: #333;
+}
+
