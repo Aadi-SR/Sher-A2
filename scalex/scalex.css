@@ -8,13 +8,13 @@
     src: url("/scalex/assets/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
 }
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Inter';
 }
-html, body {
+html, body{
     height: 100%;
     width: 100%;
 }
@@ -23,7 +23,7 @@ body{
 }
 
 /* Navbar */
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +49,8 @@ nav button {
 nav button:hover {
     background-color: #282828;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul {
@@ -95,6 +97,8 @@ h1 {
 .section-buttons button:hover {
     background-color: #FD4A09;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Card container */
@@ -119,6 +123,7 @@ h1 {
 .card:hover{
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .image{
